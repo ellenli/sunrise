@@ -108,7 +108,7 @@
 }
 .gbqfif, .gbqfsf {
     color: #222;
-    font: 13px arial,sans-serif;
+    font: 13px arial,sans-serif !important;
     padding: 2px 1px !important;
 }
 .ro-chip-5 dl, .ro-chip-10 dl, .ro-chip-15 dl, .ro-chip-20 dl, .ro-chip-25 dl, .ro-chip-30 dl, .ro-chip-35 dl, .ro-chip-40 dl,
