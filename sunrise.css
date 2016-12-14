@@ -111,9 +111,10 @@
     font: 13px arial,sans-serif;
     padding: 2px 1px !important;
 }
-.ro-chip-20 dl, .rb-ro-20 {
+.ro-chip-5 dl, .ro-chip-10 dl, .ro-chip-15 dl, .ro-chip-20 dl, .ro-chip-25 dl, .ro-chip-30 dl, .ro-chip-35 dl, .ro-chip-40 dl,
+.rb-ro-5, .rb-ro-10, .rb-ro-15, .rb-ro-20, .rb-ro-25, .rb-ro-30, .rb-ro-35, .rb-ro-40 {
     /* opacity: 0.3; */
-    background-blend-mode: soft-light !important;
+    background-blend-mode: color-burn !important;
 }
 .goog-zippy-expanded .monthtableBody {
     padding-left: 0px !important;
@@ -133,4 +134,10 @@
 }
 .qnb-container .goog-imageless-button, .action-btn-wrapper .goog-imageless-button {
     text-transform: none !important;
+}
+.month-row .st-ad-mpadr {
+    margin-right: 0px !important;
+}
+.st-c-pos {
+    padding: 2px 2px 0px 0px !important;
 }
