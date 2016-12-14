@@ -5,3 +5,4 @@ $('#gridcontainer').on({
         e.stopPropagation();
     }
 })
+$('.goog-imageless-button-content').contents().first().replaceWith("Add event");
