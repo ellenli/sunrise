@@ -141,3 +141,12 @@
 .st-c-pos {
     padding: 2px 2px 0px 0px !important;
 }
+.eui-s #gridcontainer, #gridcontainer {
+    margin-right:10px!important;
+}
+.mv-container {
+    margin-right:17px!important;
+}
+.cc-titlebar {
+    padding: 5px;
+}
