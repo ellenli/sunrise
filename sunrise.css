@@ -1,8 +1,8 @@
-.gb_tc, #mg-more, #navfooter, .gb_Jc:first-child, #gbsfw:first-child+.gb_Jc, .gb_vc.gb_wc {
+.gb_tc, #mg-more, #navfooter, .gb_Jc:first-child, #gbsfw:first-child+.gb_Jc, .gb_vc.gb_wc, #onegoogbar {
     display: none !important;
 }
 #nav {
-    margin-top: 20px !important;
+    margin-top: 9px !important;
 }
 #gbq1 {
     min-width: 184px !important;
@@ -79,7 +79,7 @@
     font-size:0px !important;
 }
 .chip dl {
-    padding: 0 0 1px !important;
+    padding: 3 0 4px !important;
 }
 .cbrdcc {
     margin-left: -8px !important;
@@ -96,10 +96,12 @@
     border: none !important;
 }
 #topLeftNavigation {
-    left: 183px !important;
+    left: 23px;
+    /*left: 183px !important;*/
 }
 #createEventButtonContainer {
-    margin: -60px 0px 33px -5px !important;
+    /* margin: -60px 0px 33px -5px !important;*/
+    display:none;
 }
 .mbox {
     padding-top: 20px !important;
@@ -112,4 +114,20 @@
 .ro-chip-20 dl, .rb-ro-20 {
     /* opacity: 0.3; */
     background-blend-mode: soft-light !important;
+}
+.goog-zippy-expanded .monthtableBody {
+    padding-left: 0px !important;
+    padding-right: 5px !important;
+}
+.calHeader, .goog-zippy-expanded .monthtableSpace {
+    margin-left: 0px !important;
+}
+#calcontent.eui-s #nav, #calcontent.eui-t #nav, #nav {
+    margin-left: 20px !important;
+}
+#topLeftNavigation, #calcontent.eui-t #topLeftNavigation, #calcontent.eui-t #searchNavigation {
+    left: 23px !important;
+}
+.st-more {
+    color: #999;
 }

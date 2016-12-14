@@ -1,9 +1,9 @@
 {
   "name": "Sunrise for Google Calendar",
-  "description": "Applies the clean and minimalist aesthetic of Sunrise (discontinued) to Google Calendar.",
+  "description": "The clean and minimalist aesthetic of Sunrise, now available for Google Calendar.",
   "author": "Ellen Li",
   "manifest_version" : 2,
-  "version": "1.0.1",
+  "version": "1.0.3",
   "icons": {
      "16": "sunrise.png",
      "48": "sunrise.png",
