@@ -4,4 +4,4 @@
 
 Install the latest version via the [Chrome Web Store](https://chrome.google.com/webstore/detail/sunrise-for-google-calend/fmjolpmacffkcohajfojifclfhcignem).
 
-Thanks for checking out my first Chrome extension! :wave:
+See ya. :wave:
