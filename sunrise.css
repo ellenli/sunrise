@@ -89,7 +89,7 @@
     margin-left: -8px !important;
 }
 .tg-times-pri {
-    top: -13px !important;
+    top: -55px !important;
     border: none !important;
 }
 
@@ -216,5 +216,5 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     overflow: hidden!important;
 }
 .crd-bottom,.tg-time-pri, .tg-time-sec {
-    border:none!important;
+    border:none !important;
 }
