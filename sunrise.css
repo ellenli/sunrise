@@ -215,6 +215,6 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     height: 20px!important;
     overflow: hidden!important;
 }
-.crd-bottom {
+.crd-bottom,.tg-time-pri, .tg-time-sec {
     border:none!important;
 }
