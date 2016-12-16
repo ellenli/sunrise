@@ -210,11 +210,11 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     margin-top:-7px!important;
 }
 .tg-time-pri, .tg-time-sec {
-    border-bottom: 1px solid #ddd;
-    padding: 5px 7px 0px 5px;
+    border-bottom: 1px solid #ddd!important;
+    padding: 5px 7px 0px 5px!important;
     height: 20px!important;
-    overflow: hidden;
+    overflow: hidden!important;
 }
 .crd-bottom {
-    border:none;
+    border:none!important;
 }
