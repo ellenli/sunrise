@@ -1,3 +1,5 @@
+/* warning: dirty css ahead */
+
 .gb_tc, #mg-more, #navfooter, .gb_Jc:first-child, #gbsfw:first-child+.gb_Jc, .gb_vc.gb_wc {
     display: none !important;
 }
