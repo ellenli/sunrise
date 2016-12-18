@@ -1,6 +1,9 @@
 .gb_tc, #mg-more, #navfooter, .gb_rc .gb_b {
     display: none !important;
 }
+.gb_Jc {
+    padding: 0px 0px 0px 7px !important;
+}
 .gb_Ce {
     background: rgba(0,0,0,.03)!important;
 }
