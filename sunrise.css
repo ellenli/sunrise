@@ -1,6 +1,4 @@
-/* warning: dirty css ahead */
-
-.gb_tc, #mg-more, #navfooter, .gb_Jc:first-child, #gbsfw:first-child+.gb_Jc, .gb_vc.gb_wc {
+.gb_tc, #mg-more, #navfooter, .gb_rc .gb_b {
     display: none !important;
 }
 .gb_Ce {
@@ -219,4 +217,7 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 }
 .crd-bottom,.tg-time-pri, .tg-time-sec {
     border:none !important;
+}
+.st-bg-td-last,.st-dtitle-today {
+    border-right: 1px solid #fff !important;
 }
