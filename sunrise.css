@@ -1,40 +1,100 @@
-.gb_tc, #mg-more, #navfooter, .gb_rc .gb_b {
-    display: none !important;
-}
-.gb_Jc {
-    padding: 0px 0px 0px 7px !important;
-}
-.gb_Ce {
+/* header */
+
+.gb_Ce { /* google header bar */
     background: rgba(0,0,0,.03)!important;
 }
-#nav {
-    margin-top: 9px !important;
+.gb_Jc { /* spacing between app and account switcher */
+    padding: 0px 0px 0px 7px !important;
 }
-#gbq1 {
+.gb_tc, #mg-more, #navfooter, .gb_rc .gb_b { /* terms, privacy, notification bell */
+    display: none !important;
+}
+#gbq1 { /* logo container */
     min-width: 184px !important;
     max-width: 184px !important;
     width: 184px !important;
 }
-.te-c {
-    border-radius: 4px!important;
+.gbqfif, .gbqfsf { /* search input */
+    color: #222;
+    font: 13px arial,sans-serif !important;
+    padding: 2px 1px !important;
+}
+#nt2 { /* yellow notification */
+    font-weight: normal!important;
+    color: #333!important;
+}
+#nt2 a, .ulnk{ /* notification link */
+    text-decoration: none!important;
 }
 
-.dp-with-events{
-    font-weight:normal!important;
+/* left nav */
+
+#nav { /* left nav */
+    margin-top: 9px !important;
 }
-.applogo {
+#createEventButtonContainer { /* create button container */
+    margin: -49px 0px 34px 0px !important;
+    /*display:none;*/
+}
+.qnb-container .goog-imageless-button, .action-btn-wrapper .goog-imageless-button { /* create button */
+    text-transform: none !important;
+}
+.applogo { /* "Calendar" */
     display:none !important;
 }
-.dp-today-selected,.dp-today {
+.goog-zippy-expanded .monthtableBody { /* days of the week in mini calendar */
+    padding-left: 0px !important;
+    padding-right: 5px !important;
+}
+.calHeader, .goog-zippy-expanded .monthtableSpace { /* headings for left nav items */
+    margin-left: 0px !important;
+}
+#calcontent.eui-s #nav, #calcontent.eui-t #nav, #nav { /* left nav items */
+    margin-left: 20px !important;
+}
+.dp-with-events { /* mini calendar container */
+    font-weight:normal!important;
+}
+.dp-today-selected,.dp-today { /* today in mini calendar */
     background-color: #eee;
     color: #000!important;
     font-weight: 900!important;
     border-color: transparent !important;
 }
-.st-dtitle-today, .st-bg-today, .st-bg-td-first, .st-bg-td-last {
+#topLeftNavigation, #calcontent.eui-t #topLeftNavigation, #calcontent.eui-t #searchNavigation { /* container for today, prev, next, current month */
+    /* left: 23px; */
+    left: 183px !important;
+}
+
+/* calendar and agenda view */
+
+.eui-s #gridcontainer, #gridcontainer { /* calendar and agenda container */
+    margin-right:10px!important;
+}
+.st-dtitle-today, .st-bg-today, .st-bg-td-first, .st-bg-td-last { /* today */
     background-color: #fff !important;
 }
-.st-c .te, .st-c .rb-n {
+.neb-when-label { /* "when" label in popover */
+    display: none !important;
+}
+.ro-chip-5 dl, .ro-chip-10 dl, .ro-chip-15 dl, .ro-chip-20 dl, .ro-chip-25 dl, .ro-chip-30 dl, .ro-chip-35 dl, .ro-chip-40 dl,
+.rb-ro-5, .rb-ro-10, .rb-ro-15, .rb-ro-20, .rb-ro-25, .rb-ro-30, .rb-ro-35, .rb-ro-40 { /* pattern overlay for calendars shared with you */
+    /* opacity: 0.3; */
+    background-blend-mode: color-burn !important;
+}
+.tg-col,.st-bg { /* calendar and agenda cells */
+    border-left: 1px solid #eee!important;
+}
+table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-top, .wbkt .cgd-gutter-bg-bottom,.st-bg-all { /* tables */
+    border-color: #eee!important;
+}
+
+/* calendar view */
+
+.te-c { /* custom color ticker for calendar view */
+    border-radius: 4px!important;
+}
+.st-c .te, .st-c .rb-n { /* events in calendar view */
     border-left-width: 2px !important;
     border-right: none !important;
     border-top: none !important;
@@ -44,19 +104,35 @@
     border-radius:0px !important;
     box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.4) !important;
 }
-.st-ad-mr, .st-ad-mr2, .st-ad-ml, .st-ad-ml2 {
+.st-ad-mr, .st-ad-mr2, .st-ad-ml, .st-ad-ml2 { /* multi-line event indicator */
     display:none !important;
 }
-.month-row .st-ad-mpad {
+.month-row .st-ad-mpad { /* multi-line event spacing */
     margin-left: auto!important;
 }
-.neb-when-label {
-    display: none !important;
+.st-more { /* overflow view link */
+    color: #999 !important;
+    line-height: 20px!important;
 }
-.ctdiv {
-    max-height: 100% !important;
+.mv-container { /* month view */
+    margin-right:17px!important;
 }
-.cbrd {
+.month-row .st-ad-mpadr { /* multi-week events in calendar view */
+    margin-right: 0px !important;
+}
+.st-c-pos { /* multi-day events in calendar view */
+    padding: 2px 2px 0px 0px !important;
+}
+.cc-titlebar {
+    padding: 25px!important;
+}
+
+/* agenda view */
+
+.chip dl { /* events in agenda view */
+    padding: 3 0 4px !important;
+}
+.cbrd { /* events in agenda view */
     border-left-width: 2px !important;
     border-right: none !important;
     border-top: none !important;
@@ -64,113 +140,56 @@
     padding-top: 4px !important;
     box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.4) !important;
 }
-.mask {
+.ctdiv { /* event title container in agenda view */
+    max-height: 100% !important;
+}
+.cbrdcc { /* container for event titles */
+    margin-left: -8px !important;
+}
+.mask { /* border for events in agenda view */
     display: none !important;
 }
-.tg-today {
+.tg-today { /* blue tint for today in agenda view */
     background-color: #f2f8fe !important;
 }
-.cpchip {
+.cpchip { /* text for events in agenda view */
     line-height: 1.1 !important;
     opacity: 0.8 !important;
     margin-top:2px !important;
 }
-.chip-caption {
+.chip-caption { /* time text in agenda view */
     font-weight:normal !important;
     opacity:0.8 !important;
 }
-.chip-caption i, .rb-ni i{
+.chip-caption i, .rb-ni i { /* icons next to time view in agenda view */
     display:none !important;
 }
-.chip dt {
+.chip dt { /* time in agenda view */
     font-size:0px !important;
 }
-.chip dl {
-    padding: 3 0 4px !important;
-}
-.cbrdcc {
-    margin-left: -8px !important;
-}
-.tg-times-pri {
+.tg-times-pri { /* container for column of hour labels on the left */
     top: -55px !important;
     border: none !important;
 }
-
-.times-pretty {
-    padding-left: 15px !important;
-}
-.tg-time-pri {
+.tg-time-pri { /* individual hour containers */
     border: none !important;
 }
-#topLeftNavigation {
-    /* left: 23px; */
-    left: 183px !important;
+.crd-bottom, .tg-time-pri, .tg-time-sec { /* hour containers */
+    border-bottom: 0px solid #ddd!important;
+    padding: 0px 7px 0px 5px!important;
+    height: 30px!important;
+    overflow: hidden!important;
 }
-#createEventButtonContainer {
-    margin: -49px 0px 34px 0px !important;
-    /*display:none;*/
+.tg-nowptr { /* now indicating-arrow on the left */
+}
+.times-pretty { /* for the pretty time format */
+    padding-left: 15px !important;
 }
 .mbox {
     padding-top: 20px !important;
 }
-.gbqfif, .gbqfsf {
-    color: #222;
-    font: 13px arial,sans-serif !important;
-    padding: 2px 1px !important;
-}
-.ro-chip-5 dl, .ro-chip-10 dl, .ro-chip-15 dl, .ro-chip-20 dl, .ro-chip-25 dl, .ro-chip-30 dl, .ro-chip-35 dl, .ro-chip-40 dl,
-.rb-ro-5, .rb-ro-10, .rb-ro-15, .rb-ro-20, .rb-ro-25, .rb-ro-30, .rb-ro-35, .rb-ro-40 {
-    /* opacity: 0.3; */
-    background-blend-mode: color-burn !important;
-}
-.goog-zippy-expanded .monthtableBody {
-    padding-left: 0px !important;
-    padding-right: 5px !important;
-}
-.calHeader, .goog-zippy-expanded .monthtableSpace {
-    margin-left: 0px !important;
-}
-#calcontent.eui-s #nav, #calcontent.eui-t #nav, #nav {
-    margin-left: 20px !important;
-}
-#topLeftNavigation, #calcontent.eui-t #topLeftNavigation, #calcontent.eui-t #searchNavigation {
-    left: 183px !important;
-}
-.st-more {
-    color: #999 !important;
-    line-height:20px!important;
-}
-.qnb-container .goog-imageless-button, .action-btn-wrapper .goog-imageless-button {
-    text-transform: none !important;
-}
-.month-row .st-ad-mpadr {
-    margin-right: 0px !important;
-}
-.st-c-pos {
-    padding: 2px 2px 0px 0px !important;
-}
-.eui-s #gridcontainer, #gridcontainer {
-    margin-right:10px!important;
-}
-.mv-container {
-    margin-right:17px!important;
-}
-.cc-titlebar {
-    padding: 5px!important;
-}
-.wk-allday .st-grid {
+.wk-allday .st-grid { /* container for all-day events in agenda view*/
     padding: 0px!important;
-}
-.tg-col,.st-bg {
-    border-left: 1px solid #eee!important;
-}
-table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-top, .wbkt .cgd-gutter-bg-bottom,.st-bg-all {
-    border-color: #eee!important;
-}
-.tg-dualmarker60 {
-    opacity:0.5!important;
-}
-.tg-nowptr {
 }
 .tg-nowmarker {
     background-image:none;
@@ -184,10 +203,16 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 }
 .tg-nowmarker::before{
 }
-.st-bg-all,.wk-full-mode .wk-today{
+.st-bg-all,.wk-full-mode .wk-today{ /* where all-day events go in agenda view */
     margin-left:-1px!important;
 }
-.bubble, .cc,.gcal-popup,.pbox,.goog-menu {
+.st-bg-td-last,.st-dtitle-today { /* today in agenda view */
+    border-right: 1px solid #fff !important;
+}
+
+/* popovers */
+
+.bubble, .cc,.gcal-popup,.pbox,.goog-menu { /* popovers */
     border-radius:3px!important;
     border: 1px solid #ddd!important;
     box-shadow: 0px 0px 5px rgba(0,0,0,.08)!important;
@@ -198,29 +223,10 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 .cc-body .st-contents {
     padding: 7px 10px 10px 6px!important;
 }
-#nt2 {
-    font-weight: normal!important;
-    color: #333!important;
-}
-#nt2 a, .ulnk{
-    text-decoration: none!important;
-}
 .mbox-cont {
     box-shadow: 0px 0px 5px rgba(0,0,0,0)!important;
     -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0)!important;
     -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0)!important;
     border:none!important;
     margin-top:-7px!important;
-}
-.tg-time-pri, .tg-time-sec {
-    border-bottom: 1px solid #ddd!important;
-    padding: 5px 7px 0px 5px!important;
-    height: 20px!important;
-    overflow: hidden!important;
-}
-.crd-bottom,.tg-time-pri, .tg-time-sec {
-    border:none !important;
-}
-.st-bg-td-last,.st-dtitle-today {
-    border-right: 1px solid #fff !important;
 }
