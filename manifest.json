@@ -3,7 +3,7 @@
   "description": "The clean and minimalist aesthetic of Sunrise, now available for Google Calendar.",
   "author": "Ellen Li",
   "manifest_version" : 2,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "icons": {
      "16": "sunrise.png",
      "48": "sunrise.png",
@@ -11,6 +11,6 @@
   },
   "content_scripts": [{
     "matches": ["https://calendar.google.com/*"],
-    "css": ["sunrise.css"],
+    "css": ["sunrise.css"]
   }]
 }

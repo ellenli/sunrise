@@ -26,6 +26,16 @@
 #nt2 a, .ulnk{ /* notification link */
     text-decoration: none!important;
 }
+.trans-strip {
+    display:none !important;
+}
+.goog-imageless-button-collapse-left:nth-child(6) { /* hide Agenda */
+    display:none !important;
+}
+.goog-imageless-button-collapse-left:nth-child(5) { /* round corners of Custom range */
+    border-top-right-radius: 2px !important;
+    border-bottom-right-radius: 2px !important;
+}
 
 /* left nav */
 
@@ -71,8 +81,8 @@
 .eui-s #gridcontainer, #gridcontainer { /* calendar and agenda container */
     margin-right:10px!important;
 }
-.st-dtitle-today, .st-bg-today, .st-bg-td-first, .st-bg-td-last { /* today */
-    background-color: #fff !important;
+.st-bg-today, .st-dtitle-today, .st-bg-td-first, .st-bg-td-last { /* today */
+    background-color: #fff !important; /* blue tint: f2f8fe */
 }
 .neb-when-label { /* "when" label in popover */
     display: none !important;
@@ -126,6 +136,9 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 .cc-titlebar {
     padding: 25px!important;
 }
+.st-dtitle-today,.st-bg-today { /* blue tint */
+    background-color: #f2f8fe !important;
+}
 
 /* agenda view */
 
@@ -151,6 +164,9 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 }
 .tg-today { /* blue tint for today in agenda view */
     background-color: #f2f8fe !important;
+}
+.chip-color-today { /* blue tint border for overlapping items today */
+    border-color: #f2f8fe !important;
 }
 .cpchip { /* text for events in agenda view */
     line-height: 1.1 !important;
@@ -206,8 +222,9 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 .st-bg-all,.wk-full-mode .wk-today{ /* where all-day events go in agenda view */
     margin-left:-1px!important;
 }
-.st-bg-td-last,.st-dtitle-today { /* today in agenda view */
-    border-right: 1px solid #fff !important;
+.st-bg-td-last, .st-dtitle-today { /* today in agenda view */
+    border-right: 1px solid transparent !important;
+    border-top: 1px solid transparent !important;
 }
 
 /* popovers */
