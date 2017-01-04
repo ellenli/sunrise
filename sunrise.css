@@ -244,8 +244,11 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 }
 .tg-nowmarker::before{
 }
-.st-bg-all,.wk-full-mode .wk-today{ /* where all-day events go in agenda view */
-    margin-left:-1px!important;
+.st-bg-all,.wk-full-mode .wk-today { /* where all-day events go in agenda view */
+    margin-left: 0px!important;
+}
+#weekViewAllDayBgwk {
+    margin-left: 0px !important;
 }
 .st-bg-td-last { /* today in agenda view */
     /* .st-dtitle-today */
