@@ -10,14 +10,24 @@
     display: none !important;
 }
 #gbq1 { /* logo container */
-    min-width: 184px !important;
-    max-width: 184px !important;
-    width: 184px !important;
+    min-width: 183px !important;
+    max-width: 183px !important;
+    width: 183px !important;
+}
+.gb_Tb { /* padding for smaller logo */
+    padding: 0 30px 0 20px !important;
+}
+.gb_Vb .gb_Xb { /* smaller logo */
+    max-height: 50px !important;
 }
 .gbqfif, .gbqfsf { /* search input */
     color: #222;
     font: 13px arial,sans-serif !important;
     padding: 2px 1px !important;
+}
+.gbqfqw { /* search input container */
+    border-top-left-radius: 2px !important;
+    border-bottom-left-radius: 2px !important;
 }
 #nt2 { /* yellow notification */
     font-weight: normal!important;
