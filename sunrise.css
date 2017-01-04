@@ -247,8 +247,11 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 .st-bg-all,.wk-full-mode .wk-today { /* where all-day events go in agenda view */
     margin-left: 0px!important;
 }
-#weekViewAllDayBgwk {
+#weekViewAllDayBgwk { /* all-day events alignment pt 1/2 */
     margin-left: 0px !important;
+}
+.wk-allday-pos { /* all-day events alignment pt 2/2 */
+    margin-right: -1px !important;
 }
 .st-bg-td-last { /* today in agenda view */
     /* .st-dtitle-today */
