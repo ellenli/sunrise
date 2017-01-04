@@ -233,14 +233,14 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     padding: 0px!important;
 }
 .tg-nowmarker {
-    background-image:none;
-    background-color: #ff7f6e;
-    width:100%;
-    height:2px;
+    background-image:none !important;
+    background-color: #ff7f6e !important;
+    width:100% !important;
+    height:2px !important;
     border: 0px solid!important;
-    margin-left:-1px;
-    padding-right:1px;
-    opacity:0.8;
+    margin-left:-1px !important;
+    padding-right:1px !important;
+    opacity:0.8 !important;
 }
 .tg-nowmarker::before{
 }
