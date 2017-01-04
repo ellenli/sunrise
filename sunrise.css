@@ -46,6 +46,13 @@
     border-top-right-radius: 2px !important;
     border-bottom-right-radius: 2px !important;
 }
+#mg-settings .goog-imageless-button-outer-box { /* hide gear in Settings button */
+    background: url(//calendar.google.com/googlecalendar/images/combined_v46_vr.png) -293px -34px no-repeat !important;
+    width: 13px !important;
+}
+#mg-settings { /* Settings button */
+    min-width: 20px !important;
+}
 
 /* left nav */
 
