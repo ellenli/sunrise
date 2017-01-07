@@ -212,7 +212,7 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     max-height: 100% !important;
 }
 .cbrdcc { /* container for event titles */
-    margin-left: -8px !important;
+    margin-left: 2px !important;
 }
 .mask { /* border for events in agenda view */
     display: none !important;
@@ -236,7 +236,7 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     display:none !important;
 }
 .chip dt { /* time in agenda view */
-    font-size:0px !important;
+    font-size:7px !important;
 }
 .tg-times-pri { /* container for column of hour labels on the left */
     top: -55px !important;
