@@ -12,6 +12,6 @@ Install the latest version via the [Chrome Web Store](https://chrome.google.com/
 
 - [x] Event start times on week view
 - [ ] White text on darker events
-- [ ] Notification messsages
+- [ ] Cleaner notification messsages
 - [ ] Event preview (popover)
 - [ ] Event creation page

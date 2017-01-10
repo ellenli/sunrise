@@ -268,9 +268,6 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 .times-pretty { /* for the pretty time format */
     padding-left: 15px !important;
 }
-.mbox {
-    padding-top: 20px !important;
-}
 .wk-allday .st-grid { /* container for all-day events in agenda view*/
     padding: 0px!important;
 }
@@ -316,10 +313,16 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 .cc-body .st-contents {
     padding: 7px 10px 10px 6px!important;
 }
+.mbox {
+    padding-top: 20px !important;
+}
 .mbox-cont {
     box-shadow: 0px 0px 5px rgba(0,0,0,0)!important;
     -moz-box-shadow: 0px 0px 5px rgba(0,0,0,0)!important;
     -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0)!important;
-    border:none!important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
     margin-top:-7px!important;
 }

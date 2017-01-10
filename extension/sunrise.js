@@ -1,4 +1,3 @@
-// sunrise styles for google calendar!
 // here comes the sun... doo doo doo doo...
 
 function toggleUpdate() {
@@ -48,15 +47,3 @@ function addEventTimes() {
 
 let isUpdating = true;
 toggleUpdate()
-
-// disable scrolling through months/weeks
-// https://github.com/alter-ego/google-calendar-scroll-disabler
-
-$('#gridcontainer').on({
-    'mousewheel': function(e) {
-        if (e.target.id == 'el') return;
-        e.preventDefault();
-        e.stopPropagation();
-        // console.log('Scroll is DISABLED.');
-    }
-})
