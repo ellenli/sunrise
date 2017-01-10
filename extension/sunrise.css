@@ -120,6 +120,10 @@
     background: none !important;
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
+    display: none; /* hide Add locally */
+}
+#calendars_my .calListRow:last-child { /* hide tasks/reminders locally */
+    display: none;
 }
 #searchAddCal:hover, #searchAddCal:focus {
     border-color: #999 !important;
@@ -212,7 +216,13 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     max-height: 100% !important;
 }
 .cbrdcc { /* container for event titles */
-    margin-left: -8px !important;
+    margin-left: 0px !important;
+}
+.cpchip b, .cpchip strong, .chip-caption b, .chip-caption strong { /* time */
+    font-size: 12px !important;
+    opacity: 0.9 !important;
+    font-weight: bold !important;
+    line-height: 1.1 !important;
 }
 .mask { /* border for events in agenda view */
     display: none !important;

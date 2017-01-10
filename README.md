@@ -1,6 +1,7 @@
 # Sunrise for Google Calendar
 
 ![image](https://raw.githubusercontent.com/ellenli/sunrise/master/cws/sunrise-1.1.6.gif)
+
 *Before and after installing Sunrise.*
 
 **Sunrise for Google Calendar** applies the clean and minimalist aesthetic of [Sunrise](http://blog.sunrise.am/post/90663314504/sunrise-for-mac) (now discontinued) to Google Calendar. The source code is here in this repo. If you spot any issues, reach out or [log an issue](https://github.com/ellenli/sunrise/issues/new). Feel free to fork/contribute!
