@@ -116,17 +116,19 @@
 }
 #searchAddCal { /* add another calendar */
     border-radius: 2px !important;
-    border: 1px solid #ddd !important;
+    border: 1px solid #cdcdcd !important;
+    border-color: rgba(0,0,0,.15) !important;
     background: none !important;
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
-    display: none; /* hide Add locally */
+    /*hide Add locally ...
+    display: none; */
 }
 #calendars_my .calListRow:last-child { /* hide tasks/reminders locally */
     display: none;
 }
 #searchAddCal:hover, #searchAddCal:focus {
-    border-color: #999 !important;
+    border-color: rgba(0,0,0,.3) !important;
 }
 
 /* calendar and agenda view */
