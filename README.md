@@ -1,6 +1,6 @@
 # Sunrise for Google Calendar
 
-![image](https://raw.githubusercontent.com/ellenli/sunrise/master/cws/sunrise-1.1.6.gif)
+![image](https://raw.githubusercontent.com/ellenli/sunrise/master/cws-assets/sunrise-1.1.6.gif)
 
 *Before and after installing Sunrise.*
 
