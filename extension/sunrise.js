@@ -27,8 +27,8 @@ function addEventTimes() {
     eventText = calendarEvents[i].textContent;
     eventHTML = calendarEvents[i].getElementsByClassName("cbrdcc")[0];
     if (undefined != eventHTML) {
-      // remove dash from 30 min events
-      eventHTML.innerHTML = eventHTML.innerHTML.replace(/-/g,'');
+      // remove first dash from 30 min events
+      eventHTML.innerHTML = eventHTML.innerHTML.replace(/- /,'');
     } else {
       // change target class for >30 min events
       eventHTML = calendarEvents[i].getElementsByClassName("evt-lk")[0];
