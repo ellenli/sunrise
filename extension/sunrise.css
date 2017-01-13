@@ -327,7 +327,7 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 .uroot a {
   display: none !important;
 }
-#nt2 a, .ulnk, .ulnk a { /* notification link */
+#nt2 a, #nt2 .ulnk, #nt2 .ulnk a { /* notification link */
     text-decoration: none !important;
     color: #A1C2FA !important;
     font-size: 95% !important;
@@ -335,12 +335,12 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     font-weight: 900 !important;
     margin-left: 3px !important;
 }
-.lk, .lk a {
+#nt2 .lk, #nt2 .lk a {
   display: inline !important;
   text-decoration: none !important;
   color: #fff !important;
   font-weight: 900 !important;
 }
-.ulnk a {
+#nt2 .ulnk a {
     display: inline !important
 }
