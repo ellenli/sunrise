@@ -45,9 +45,9 @@ body, html, .gb_wd {
   opacity: 0.7 !important;
 }
 .mmsF1c::after { /* every hour */
-  border-bottom: 1px solid rgb(224, 224, 224) !important;
+  border-bottom: 1px dashed rgb(224, 224, 224) !important;
   padding-top: 23px !important;
-  border-top: 1px dashed rgb(224, 224, 224) !important; /* every half hour */
+  border-top: 1px solid rgb(224, 224, 224) !important; /* every half hour */
 }
 .EfQccc.LKeQwe::after {
     border: 0px dashed inherit !important;
@@ -64,8 +64,11 @@ body, html, .gb_wd {
 .lFe10c { /* week view event label */
   padding-left: 6px !important;
 }
-.uXJUmd { /* week view for event blocks > indicator w custom colors */
+.uXJUmd, .wgIOqb-XPtOyb-LK5yu-VtOx3e { /* hide indicator for custom event colors  */
   display: none !important;
+}
+.wgIOqb-XPtOyb.wgIOqb-XPtOyb-QKhXwe {
+  border: 1px solid !important;
 }
 .Uit9Se { /* row height for week view dow */
   height: 80px !important;
