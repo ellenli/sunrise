@@ -4,14 +4,6 @@
 
 *Before and after installing Sunrise.*
 
-**Sunrise for Google Calendar** applies the clean and minimalist aesthetic of [Sunrise](http://blog.sunrise.am/post/90663314504/sunrise-for-mac) (now discontinued) to Google Calendar. The source code is here in this repo. If you spot any issues, reach out or [log an issue](https://github.com/ellenli/sunrise/issues/new). Feel free to fork/contribute!
+**Sunrise for Google Calendar** applies the clean and minimalist aesthetic of [Sunrise](http://blog.sunrise.am/post/90663314504/sunrise-for-mac) (now discontinued) to Google Calendar. The source code is here in this repo. As of October 29, 2017, this extension also supports [the redesigned Google Calendar](https://www.theverge.com/2017/10/17/16488438/google-calendar-web-redesign-update). If you spot any issues, reach out or [log an issue](https://github.com/ellenli/sunrise/issues/new). Feel free to fork/contribute!
 
 Install the latest version via the [Chrome Web Store](https://chrome.google.com/webstore/detail/sunrise-for-google-calend/fmjolpmacffkcohajfojifclfhcignem). :wave:
-
-## Upcoming
-
-- [x] Event start times on week view
-- [ ] White text on darker events
-- [ ] Cleaner notification messsages
-- [ ] Event preview (popover)
-- [ ] Event creation page

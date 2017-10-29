@@ -1,4 +1,31 @@
-// here comes the sun... doo doo doo doo...
+// Google Calendar (Modern)
+
+function moveAddCalendar() {
+  let calendarDivider = document.getElementsByClassName("qZvm2d-clz4Ic");
+  let calendarImporter = document.getElementsByClassName("NcbWHe");
+
+  // $(".NcbWHe").insertAfter(".qZvm2d-clz4Ic");
+
+}
+
+function timeFirst() {
+  let calendarEvents = document.getElementsByClassName("wgIOqb-XPtOyb");
+  var eventHTML;
+  var eventName;
+  var eventComma;
+  var eventStartTime;
+
+  for (var i = 0; i < calendarEvents.length; i++) {
+    eventHTML = calendarEvents[i].getElementsByClassName("c1wk3e")[0];
+    eventStartTime = calendarEvents[i].getElementsByClassName("wgIOqb-ihIZgd")[0];
+    eventComma = calendarEvents[i].getElementsByClassName("qZvm2d-clz4Ic")[0];
+    eventName = calendarEvents[i].getElementsByClassName("wgIOqb-r4nke")[0];
+
+    eventHTML.innerHTML = eventStartTime + eventComma + eventName;
+  }
+}
+
+// Google Calendar (Classic)
 
 function toggleUpdate() {
   if (!isUpdating) {
@@ -47,3 +74,6 @@ function addEventTimes() {
 
 let isUpdating = true;
 toggleUpdate()
+
+// moveAddCalendar()
+// timeFirst()

@@ -1,3 +1,107 @@
+body, html, .gb_wd {
+  font-family: Roboto,Helvetica,Arial,sans-serif !important;
+}
+.O0WRkf { /* "Today" button*/
+  text-transform: none !important;
+}
+.Cd9hpd .NlWrkb, .GXlaye .snByac { /* lighten the button labels */
+  opacity: .6 !important;
+}
+.nL44Lb { /* time zone */
+  display: none !important;
+}
+.KSxb4d { /* week view date  labels */
+  font-size: 28px !important;
+  line-height: 28px !important;
+}
+.qAeuG { /* week view day of week labels */
+  line-height: 28px !important;
+}
+.rpCPrc { /* week view of day+date container */
+  margin: 9px 0 !important;
+}
+.EfQccc { /* week view event blocks */
+  opacity: 1 !important;
+  border-radius: 0px !important;
+  box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.25) !important;
+  margin: 0px auto auto -1px !important;
+}
+.wgIOqb-XPtOyb { /* day long events in week view AND any event in multi-week view */
+  opacity: 1 !important;
+  border-radius: 0px !important;
+  box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.25) !important;
+  margin-left: -1px !important;
+  border: 0px !important;
+  padding: 0px 6px !important;
+}
+.EfQccc.Hrn1mc.EiZ8Dd::after { /* borders around events */
+  border: 2px solid #fff !important;
+  top: -2px !important;
+  height: calc(100% + 4px) !important;
+  -webkit-border-radius: 0px !important;
+  border-radius: 0px !important;
+}
+.uVccjd { /* calendar toggle checkboxes */
+  opacity: 0.7 !important;
+}
+.mmsF1c::after { /* every hour */
+  border-bottom: 1px solid rgb(224, 224, 224) !important;
+  padding-top: 23px !important;
+  border-top: 1px dashed rgb(224, 224, 224) !important; /* every half hour */
+}
+.EfQccc.LKeQwe::after {
+    border: 0px dashed inherit !important;
+    padding-right: 10px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    box-shadow:
+      -2px 2px 0px 0px #ffffff,
+      -2px -2px 0px 0px #ffffff !important; /* spacing between border blocks */
+  }
+.Jmftzc.RIOtYe { /* week view event label */
+  padding-top: 3.5px !important;
+}
+.lFe10c { /* week view event label */
+  padding-left: 6px !important;
+}
+.uXJUmd { /* week view for event blocks > indicator w custom colors */
+  display: none !important;
+}
+.Uit9Se { /* row height for week view dow */
+  height: 80px !important;
+}
+
+#gbwa, .gb_4c:nth-child(2), .gb_ae.gb_ee { /* ui header CTAs like app picker, notifications */
+  display: none !important;
+}
+.gb_zd .gb_8b {
+  padding-left: 0px !important;
+}
+.gb_Pd { /* logo container */
+  min-width: unset !important;
+}
+.gb_yc.gb_Zd { /* settings gear */
+  padding-left: 0px !important;
+}
+.qOsM1d:last-child { /* list of calendars */
+  padding: 0px 5px 0px 5px !important;
+}
+NI2kfb { /* label of calendars */
+  color: #333 !important;
+}
+.hEtGGf { /* hide left side scrollbar */
+  overflow-y: hidden !important;
+}
+
+.qZvm2d-clz4Ic { /* wider divider between my calendars and other calendars */
+    margin: 10px -10px 10px -10px !important;
+}
+.NcbWHe { /* add calendar input */
+  margin: 15px 0px -5px 0px !important;
+}
+
+/* Below: Google Calendar (Classic) */
+
 /* header */
 
 .gb_Ce { /* google header bar */
@@ -162,6 +266,7 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
     margin-left: 0px;
     border-radius:0px !important;
     opacity: 0.75 !important;
+    margin-right: 7px !important;
     /* box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.4) !important; */
 }
 .rb-n { /* day event text */
@@ -242,6 +347,9 @@ table,.st-dtitle,.tg-col,.tg-dualmarker60,.tg-dualmarker,.wbkt .cgd-gutter-bg-to
 }
 .chip dt { /* time in agenda view */
     font-size:0px !important;
+    padding: 0px 4px 0 4px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
 }
 .tg-times-pri { /* container for column of hour labels on the left */
     top: -55px !important;
