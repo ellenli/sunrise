@@ -23,13 +23,13 @@ body, html, .gb_wd {
 .EfQccc { /* week view event blocks */
   opacity: 1 !important;
   border-radius: 0px !important;
-  box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.25) !important;
+  box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.1) !important;
   margin: 0px auto auto -1px !important;
 }
 .wgIOqb-XPtOyb { /* day long events in week view AND any event in multi-week view */
   opacity: 1 !important;
   border-radius: 0px !important;
-  box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.25) !important;
+  box-shadow: inset 0 0 1000px 1000px rgba(255, 255, 255, 0.1) !important;
   margin-left: -1px !important;
   border: 0px !important;
   padding: 0px 6px !important;
@@ -42,7 +42,7 @@ body, html, .gb_wd {
   border-radius: 0px !important;
 }
 .uVccjd { /* calendar toggle checkboxes */
-  opacity: 0.7 !important;
+  opacity: 0.9 !important;
 }
 .mmsF1c::after { /* every hour */
   border-bottom: 1px dashed rgb(224, 224, 224) !important;
