@@ -3,7 +3,7 @@
   "description": "The simple and light aesthetic of Sunrise, now available for Google Calendar (classic and modern UI supported).",
   "author": "Ellen Li",
   "manifest_version" : 2,
-  "version": "2.0.3",
+  "version": "2.0.4",
   "icons": {
      "16": "icon-16.png",
      "48": "icon.png",

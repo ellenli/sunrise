@@ -93,9 +93,12 @@ NI2kfb { /* label of calendars */
   color: #333 !important;
 }
 .hEtGGf { /* hide left side scrollbar */
-  overflow-y: hidden !important;
+  overflow-y: scroll !important;
 }
-
+::-webkit-scrollbar {
+    width: 0px !important;  /* remove scrollbar space */
+    background: transparent !important;  /* optional: just make scrollbar invisible */
+}
 .qZvm2d-clz4Ic { /* wider divider between my calendars and other calendars */
     margin: 10px -10px 10px -10px !important;
 }
